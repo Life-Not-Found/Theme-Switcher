@@ -1,7 +1,6 @@
 # Theme-Switcher
-A Theme Switcher for rainmeter Made by Life_404
 
-* About
+A Theme Switcher for rainmeter Made by Life_404
 
 This Is basically an App laucher thats Kinda Fancy Because all the magic is in the PowerShell Scripts
 
@@ -96,3 +95,9 @@ This Is basically an App laucher thats Kinda Fancy Because all the magic is in t
 
 # Notes
 This is my first ever project in rainmeter go easy on me :)
+
+# Credits
+* Malody Hoe for Factory Scripts
+* bluwy for [LuaTween Scripts](https://github.com/bluwy/LuaTween-for-Rainmeter)
+* Setsukka for [FileChoose](https://forum.rainmeter.net/viewtopic.php?t=33767)
+* jsmorley for [RainRGB](https://forum.rainmeter.net/viewtopic.php?t=6215)
