@@ -12,7 +12,7 @@ SettingsFontStyle=Russo One
 ;---------------------------
 ;Main Panel Variables
 ;---------------------------
-WindowWidth=420
+WindowWidth=404
 WindowHeight=583
 TopBarHeight=24
 BackGroundColor=42,43,43
@@ -23,7 +23,7 @@ TopBarColor=0,240,255
 ItemHeight=100
 ItemSpacing=10
 ItemOutline=1.5
-MainFontSize=42
+MainFontSize=37
 MainFontSizeMin=11
 MainFontSizeMax=79
 DeleteButtonShow=1
