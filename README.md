@@ -87,5 +87,12 @@ This Is basically an App laucher thats Kinda Fancy Because all the magic is in t
      ```  
     Replace all file paths and names and you should be done just link your theme-switcher to the step 10 file (If you don't have wallpaper engine for example remove       the whole line to do with wallpaper engine and you should be good).
     
+# FAQ
+* The PowerShell Scripts Won't Run
+  
+  Set your execution policy to remote signed by opening Windows PowerShell and Running 
+  
+  ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned```
+
 # Notes
 This is my first ever project in rainmeter go easy on me :)
