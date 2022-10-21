@@ -1,0 +1,20 @@
+[ThemeBase0]
+Meter=Shape
+Shape=Rectangle 0,0,#ItemWidth#,#ItemHeight#,#Rounding# | StrokeWidth #Outline# | Stroke Color #Theme0OutlineColor# | Fill Color #Theme0Color#
+Shape2=Rectangle (#Offset#/2),(#Offset#/2),#PictureWidth#,(#ItemHeight#-#Offset#),#Rounding# | StrokeWidth #Outline# | Stroke Color #Theme0OutlineColor# | Fill Color 0,0,0,0
+Shape3=Rectangle (#PictureWidth#-5),(#Offset#-25),30,30 | Fill Color 0,0,0 | Stroke Color 0,0,0,0 | Rotate 45
+Shape4=Rectangle (-5),(#ItemHeight#-#Offset#-5),30,30 | Fill Color 0,0,0 | Stroke Color 0,0,0,0 | Rotate 45
+Shape5=Combine Shape2 | Exclude Shape3 | Exclude Shape4
+Shape6=Combine Shape | Exclude Shape5
+Shape7=Rectangle (#PictureWidth#+#Offset#),(#Offset#/2),(#ItemWidth#-#PictureWidth#-#Offset#-(#Offset#/2)),(#ItemHeight#-#Offset#),#Rounding# | StrokeWidth #Outline# | Stroke Color #Theme0OutlineColor# | Fill Color 0,0,0,0
+Shape8=Rectangle (#PictureWidth#+(#Offset#/2)-5),(#Offset#-25),30,30 | Fill Color 0,0,0 | Stroke Color 0,0,0,0 | Rotate 45
+Shape9=Rectangle (#ItemWidth#-#Offset#-5),(#ItemHeight#-#Offset#-5),30,30 | Fill Color 0,0,0 | Stroke Color 0,0,0,0 | Rotate 45
+Shape10=Combine Shape7 | Exclude Shape8 | Exclude Shape9
+DynamicVariables=1
+Container=ThemeContainer
+Y=(#ItemHeight#+#ItemSpacing#)r
+MouseOverAction=[!CommandMeasure LuaTween0 "Start(0)"][!CommandMeasure LuaTween0 "Start(1)"][!CommandMeasure LuaTween0 "Start(2)"]
+MouseLeaveAction=[!CommandMeasure LuaTween0 "Reverse(0)"][!CommandMeasure LuaTween0 "Reverse(1)"][!CommandMeasure LuaTween0 "Reverse(2)"]
+LeftMouseUpAction=["#Theme0FilePath#"]
+Group=Content | Tweenable
+X=#BaseXStart#
